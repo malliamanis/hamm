@@ -1,0 +1,9 @@
+// comment
+/* comment */
+
+i32 main()
+{
+	print("Hello World"); // intrinsic
+
+	return 0;
+}

@@ -1,0 +1,18 @@
+i32 main()
+{
+	i32 n1 = 20;
+	i64 n2 = 123456789;
+
+	n2 += n1
+	n2 *= 25;
+
+	if (n2 > 45)
+		print("Something went wrong");
+	
+	while (n2 > 10) {
+		print("%ld\n", n2);
+		--n2;
+	}
+
+	return 0;
+}
